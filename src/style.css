@@ -10,14 +10,14 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
   color: var(--blanco);
   font-size: 2rem;
 }
 .titulo {
   text-align: center;
   font-size: 3rem;
-  margin-top:5rem;
+  margin-top: 5rem;
 }
 
 .contenedor {
@@ -27,11 +27,11 @@ body {
 }
 @media (min-width: 768px) {
   .buscador-clima {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      align-items: center;
-      gap: 4rem;
-      margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 4rem;
+    margin-top: 5rem;
   }
 }
 .formulario,
@@ -44,11 +44,11 @@ body {
   font-size: 2rem;
   font-weight: 700;
 }
-.formulario input[type="text"], 
+.formulario input[type="text"],
 .formulario select {
   padding: 1rem;
   background-color: transparent;
-  border: .3rem solid var(--blanco);
+  border: 0.3rem solid var(--blanco);
   border-radius: 1rem;
   color: var(--blanco);
   font-weight: 400;
@@ -65,9 +65,9 @@ body {
   padding: 1rem;
   margin-top: 2rem;
 }
-.campo ::placeholder { 
+.campo ::placeholder {
   color: var(--blanco);
-  opacity: 1; 
+  opacity: 1;
 }
 
 .resultado {
