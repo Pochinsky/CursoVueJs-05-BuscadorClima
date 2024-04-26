@@ -1,7 +1,5 @@
-# Vue 3 + Vite
+# BuscadorClima - Buscador de Climas
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Similar al Proyecto Anterior en este estaremos creando una aplicación de clima que se conecta a una API externa, esta API requiere un Key y enviar los datos de cierta forma; una vez enviada la petición veremos como obtener los datos y presentarlos. Se emplea el uso de Composables y la librería Axios.
 
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+Para visitar el proyecto publicado [pincha aquí](https://buscadorclima-vuejs.netlify.app/)
